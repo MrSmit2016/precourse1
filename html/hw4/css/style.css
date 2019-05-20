@@ -81,10 +81,14 @@
     padding-top: 80px;
   }
   .first {
-    padding-right: 100px;
+    padding-top: 20px;
   }
   .chetyr {
-    padding-top: 50px;
+    padding-top: 20px;
+
+  }
+  .first>img{
+    width: 100%;
   }
   .paty {
     padding-top: 30px;
