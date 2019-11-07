@@ -11,16 +11,20 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
 }
+
 .menu {
   display: flex;
   list-style: none;
-  width: 30%;
+  width: 33%;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
 }
-h1 {
+
+h1{
   font-size: 40px;
 }
 .menu > li:hover {
@@ -47,11 +51,22 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 60px;
+}
+p{
+  color: #afafaf;
+  font-size: 15pt;
+}
+h2{
+  font-size: 14pt;
 }
 .box {
-  width: 33%;
+  width: 30%;
   display: flex;
-  margin-bottom: 30px;
+  margin: 10px 10px 30px 10px;
+}
+.text>p{
+  font-size: 15px;
 }
 .pic {
   margin-right: 20px;
@@ -66,6 +81,26 @@ h1 {
 .item>img{
   width: 100%;
 }
+.title{
+  font-style: italic;
+}
+.title2{
+  font-weight: bold;
+  font-size: 30px;
+}
+.description{
+  width: 1100px;
+  margin: auto;
+  font-size: 15px;
+  bottom: 10px;
+}
+.imena{
+  margin: 10px;
+  text-align: center;
+}
+.imena>p{
+  font-weight: bold;
+}
 .subMenu{
   list-style: none;
   background-image: linear-gradient(to bottom, #f39d8dbb, #f4d787bb);
@@ -75,12 +110,13 @@ h1 {
   width: 383px;
   height: 473px;
   position: absolute;
-  top: 0;
+  top: 674px;
   opacity: 0;
 }
-.item:hover>subMenu{
+.item:hover>.subMenu{
   opacity: 1;
-  transition: all ease 2s;
+  transition: all 2s ease;
+  box-shadow: 10px 10px #95e1d3;
 }
 .subMenu>li{
   width: 56px;
@@ -91,6 +127,7 @@ h1 {
   align-items: center;
   outline: #f38181 dolid;
 }
+
 .subMenu>li:hover{
   background-color: #95e1d3;
 }
@@ -103,11 +140,16 @@ main::after{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+footer{
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+.over{
+  display: flex;
+  justify-content: space-between;
+}
 .input{
   border-color: #ccc;
-}
-.button{
-  background-color: #95e1d3;
-  width: 100px;
-  height: 50px;
+
 }
