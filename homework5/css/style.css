@@ -1,0 +1,192 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    .menu{
+        font-weight: 1000;
+        display: flex;
+        list-style: none;
+        width: 39%;
+        justify-content: space-around;
+        font-size: 15px;
+        align-items: center;
+    }
+    h1::first-letter{
+        font-weight: initial;
+        color: #1abc9c;
+    }
+    h1{
+        font-weight: initial;
+        font-size: 30px;
+    }
+    .menu > li:hover {
+        color: #1abc9c;
+    }
+
+
+
+    .main{
+        display: flex;
+        margin: 200px 300px 200px;
+    }
+    h2{
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+    .logotip{
+        margin: 0 20px;
+        font-size: 30px;
+        font-weight: initial;
+    }
+    .st1{
+        margin-right: 60px;
+        width: 100px;
+        height: 100px;
+        background-color: #54a28f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .st2{
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+        background-color: #54a28f; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section02{
+        background-color: #e9f0fd;
+    }
+    h3{
+        margin: 30px 0 20px;
+        font-size: 45px;
+        margin: 0 0 0 30px;
+        text-align: center;
+        font-weight: bold;
+        color: #515151;
+    }
+    .palka{
+        margin: 20px auto;
+        width: 164px;
+        height: 7px;
+        background-color: #1abc9c;
+    }
+    .galery{
+            margin: 10px 100px 10px;
+            display: flex;
+            justify-content: space-around;
+    }
+    .title2{
+        margin: 50px 0 50px;
+    }
+    .subMenu{
+        width: 260px;
+        height: 300px;
+        background-color: #737373a9;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: absolute;
+        top: 690px;
+        margin: 0 35px;
+        flex-wrap: wrap;
+    }
+    .item:hover>.subMenu{
+        opacity: 1;
+        transition: all 2s ease;
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        margin: 30px 4px 0;
+    }
+    .boc{
+        display: flex;
+        margin: 65px 0 0;
+    }
+    .subMenu>li{
+        width: 56px;
+        height: 56px;
+        background-color: #fce38a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: #f38181 dolid;
+    }
+    .subMenu>li:hover{
+        background-color: ;
+    }
+    .boz{
+        margin: 0 20px 90px;
+        width: 166px;
+        height: 50px;
+        border: 1px solid #fff;
+    }
+    .boz>li{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px;
+    }
+    .boz>li>p{
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+    }
+    .litletitle{
+        display: flex;
+
+    }
+    .box:hover{
+        background-color: #1abc9c;
+    }
+    .boz:hover{
+        background-color: #323232;
+    }
+    .litletitle:hover{
+        color: #1abc9c;
+    }
+    .zag{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        width: 251px;
+        height: 40px;
+        background-color: #323232;
+    }
+    .cena{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        width: 77px;
+        height: 40px;
+        background-color: #8c8c8c;
+    }
+    footer{
+        background-color: #323232;
+        height: 100px;
+    }
+    footer>p{
+        font-size: 16pt;
+        color: rgba(254, 254, 254, 255);
+        position: absolute;
+        margin: 35px 550px;
+    }
