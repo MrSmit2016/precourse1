@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(min-width: 320px){
+.wrapper{
+    position: colum;
+    width: 322px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../img/Vector\ Smart\ Object@1X.png);
+    background-color: rgb(253, 0, 0);
+}
+.setbut{
+    display: flex;
+    margin: 20px 65px 100px;
+}
+.knop1{
+    font-size: 14pt;
+    width: 90px;
+    height: 36px;
+    border-radius: 20rem;
+    color:#fff;
+    border: 0 solid;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.knop12{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    width: 90px;
+    height: 36px;
+    border-radius: 20rem;
+    color:#fff;
+    border: 2px solid;
+}
+h1{
+    font-size: 20pt;
+    text-align: center;
+    margin: 0 50px 20px;
+    color:#fff;
+}
+h2{
+    font-size: 30.01471pt;
+    text-align: center;
+    margin: 20px 0 25px;
+    color:#fff;
+}
+h3{
+    color: #000;
+    font-weight: 700;
+    margin: 20px 0 20px;
+}
+p{
+    font-size: 18.00883pt;
+    text-align: center;
+    margin: 0 0 25px;
+    color:#fff;
+}
+.knop2{
+    width: 280px;
+    height: 40px;
+    font-size: 14pt;
+    margin: 0 0 76px 20px;
+    background-color: #ff4e50;
+    color:#fff;
+    border-radius: 20rem;
+    border: none;
+}
+main{
+    width: 322px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper2>h3{
+    color: black;
+}
+.picp>img{
+    border-radius: 50rem;
+    margin: 20px 100px 10px;
+}
+.picp>p{
+    color: black;
+    margin: 10px;
+    font-size: 14pt;
+    font-weight: 100;
+}
+h4{
+    text-align: center;
+    margin: 10px;
+    font-size: 14pt;
+    
+}
+.minpic3{
+    background-color: #1cd7ad;
+    border-radius: 50rem;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 1235px;
+    margin: 0 190px;
+}
+.minpic3>img{
+    width: 18px;
+    height: 18px;
+   
+}
+.minpic1{
+    background-color: #ff4e50;
+    border-radius: 50rem;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 710px;
+    margin: 0 190px;
+}
+.minpic1>img {
+    width: 18px;
+    height: 18px;
+}
+.minpic2{
+    background-color: #ffa507;
+    border-radius: 50rem;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 965px;
+    margin: 0 190px;
+}
+.minpic2>img{
+    width: 14px;
+    height: 17px;
+}
+.minpic4{
+    background-color: #4e73db;
+    border-radius: 50rem;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 1490px;
+    margin: 0 190px;
+}
+.minpic4>img{
+    width: 18px;
+    height: 16px;
+
+    
+}
+.wrapper2>button{
+    color: #ff5254;
+    border-color: #ff5254;
+    background-color: #fff;
+    width: 280px;
+    height: 40px;
+    border-radius: 20rem;
+    font-size: 14pt;
+    margin: 0 21px 20px;
+    font-size: 14pt;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(min-width: 768px){ 
+    .wrapper{
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(../img/Vector\ Smart\ Object@1X\ \(2\).png);
+        background-color: rgb(253, 0, 0);
+    }
+    .logomogo{
+        display: flex;
+        justify-content: center;
+    }
+    .setbut{
+        display: flex;
+        margin: 20px 65px 100px;
+    }
+    h1{
+        font-size: 20pt;
+        text-align: center;
+        margin: 25px 110px 20px;
+        color:#fff;
+    }
+    h2{
+        display: flex;
+        font-size: 30.01471pt;
+        font-weight: 700;
+        text-align: center;
+        margin: 50px 170px 50px;
+        color:#fff;
+    }
+    .knop1{
+        font-size: 14pt;
+        width: 90px;
+        height: 36px;
+        border-radius: 20rem;
+        color:#fff;
+        border: 0 solid;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .knop12{
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14pt;
+        width: 90px;
+        height: 36px;
+        border-radius: 20rem;
+        color:#fff;
+        border: 2px solid;
+    }
+    .wrapper2{
+        width: 768px;
+        float: right;
+    }
+    .wrapper>p{
+        margin: 0 194px 20px;
+    }
+    .knop2{
+        margin: 0 245px 200px;
+    }
+    .wrapper2>h3{
+        font-size: 22pt;
+        color: rgba(51, 51, 51, 255);
+        margin: 20px 0 0 50px;
+    }
+    .wrapper2{
+        margin: auto;
+        width: 768px;
+    }
+    button>.knop2{
+        width: 280px;
+        height: 40px;
+        font-size: 14pt;
+        margin: 0 180px 100px;
+        background-color: #ff4e50;
+        color:#fff;
+        border-radius: 20rem;
+        border: none;
+    }
+    .box1, .box2{
+        display: flex;
+    }
+    .box1{
+        display: flex;
+    }
+    .box2{
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+    main{
+        width: 600px;
+    }
+    .minpic3{
+        background-color: #1cd7ad;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 1155px;
+        margin: 0 190px;
+    }
+    .minpic3>img{
+        width: 18px;
+        height: 18px;
+       
+    }
+    .minpic1{
+        background-color: #ff4e50;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 830px;
+        margin: 0 190px;
+    }
+    .minpic1>img {
+        width: 18px;
+        height: 18px;
+    }
+    .minpic2{
+        background-color: #ffa507;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 820px;
+        margin: 0 190px;
+    }
+    .minpic2>img{
+        width: 14px;
+        height: 17px;
+    }
+    .minpic4{
+        background-color: #4e73db;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 1155px;
+        margin: 0 190px;
+    }
+    .minpic4>img{
+        width: 18px;
+        height: 16px;
+    }
+    .wrapper2>button{
+        color: #ff5254;
+        border-color: #ff5254;
+        background-color: #fff;
+        width: 280px;
+        height: 40px;
+        border-radius: 20rem;
+        font-size: 14pt;
+        margin: 0 150px 20px;
+        font-size: 14pt;
+    }
+    .box{
+        margin: 10px 50px;
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1300px){
+    .wrapper{
+        width: 1300px;
+        height: 700px;
+        background-image: url(../img/Vector\ Smart\ Object@1X\ \(2\).png);
+        background-color: rgba(253, 0, 0, 0.63);
+    }
+    .wrapper2{
+        width: 1300px;
+    }
+    .logomogo{
+        display: flex;
+        justify-content: center;
+    }
+    .setbut{
+        display: flex;
+        margin: 20px 200px 100px;
+    }
+    h1{
+        font-size: 20pt;
+        text-align: center;
+        margin: 25px 200px 20px;
+        color:#fff;
+    }
+    h2{
+        font-weight: 900;
+        display: flex;
+        font-size: 30.01471pt;
+        text-align: center;
+        margin: 20px 400px 25px;
+        color:#fff;
+    }
+    .knop1{
+        font-size: 14pt;
+        width: 90px;
+        height: 36px;
+        border-radius: 20rem;
+        color:#fff;
+        border: 0 solid;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .knop12{
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14pt;
+        width: 90px;
+        height: 36px;
+        border-radius: 20rem;
+        color:#fff;
+        border: 2px solid;
+    }
+    .wrapper>p{
+        margin: 0 460px 20px;
+    }
+    .knop2{
+        margin: 0 520px 200px;
+    }
+    .wrapper2>h3{
+        font-size: 22pt;
+        color: rgba(51, 51, 51, 255);
+    }
+    button>.knop2{
+        width: 280px;
+        height: 40px;
+        font-size: 14pt;
+        margin: 0 150px 100px;
+        background-color: #ff4e50;
+        color:#fff;
+        border-radius: 20rem;
+        border: none;
+    }
+
+
+
+
+
+
+    .minpic3{
+        background-color: #1cd7ad;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 890px;
+        margin: 0 190px;
+    }
+    .minpic3>img{
+        width: 18px;
+        height: 18px;
+       
+    }
+    .minpic1{
+        background-color: #ff4e50;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 890px;
+        margin: 0 190px;
+    }
+    .minpic1>img {
+        width: 18px;
+        height: 18px;
+    }
+    .minpic2{
+        background-color: #ffa507;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 890px;
+        margin: 0 190px;
+    }
+    .minpic2>img{
+        width: 14px;
+        height: 17px;
+    }
+    .minpic4{
+        background-color: #4e73db;
+        border-radius: 50rem;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 890px;
+        margin: 0 190px;
+    }
+    .minpic4>img{
+        width: 18px;
+        height: 16px;
+    }
+    .wrapper2>button{
+        color: #ff5254;
+        border-color: #ff5254;
+        background-color: #fff;
+        width: 280px;
+        height: 40px;
+        border-radius: 20rem;
+        font-size: 14pt;
+        margin: 0 150px 20px;
+        font-size: 14pt;
+    }
+    .boz{
+        display: flex;
+    }
+}
